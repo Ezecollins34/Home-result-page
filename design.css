@@ -1,0 +1,93 @@
+html,body{
+	background-color: white;
+	height: 100%;
+}
+#main{
+	min-height: calc(100vh - 50.87px);
+}
+
+section{
+    text-align: center;
+    padding: 5%;
+}
+.logo{
+    padding: 5%;
+}
+.SB{
+    justify-content: center;
+    width: 70%;
+    background-color: white;
+    height: fit-content;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid gray;
+    opacity: 0.5;
+}
+.SB :hover{
+    border: none;
+    padding: 5px;
+    color: #70757a;
+    box-shadow: 1px 2px 8px ;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    background-color: white;
+    float: right;
+    max-width: max-content;
+}
+.search{
+    border: none;
+    height: 30px;
+    width: 82%;
+}
+
+#place{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.site-links{
+    display: flex;
+    width: 50%;
+    display: inline-block;
+}
+
+ul{
+    display: flex;
+    flex: content;
+    flex-direction: column;
+}
+
+a{
+    line-height: 1.8;
+}
+
+.list1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: right;
+}
+.active{
+    text-decoration: none;
+    text-align: right;
+}
+
+.list2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: left;
+}
+.active2{
+    text-decoration: none;
+    text-align: left;
+}
+
+.footer{
+	background-color: white;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

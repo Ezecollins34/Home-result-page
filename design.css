@@ -3,7 +3,7 @@ html,body{
 	height: 100%;
 }
 #main{
-	min-height: calc(100vh - 50.87px);
+	max-height: calc(100vh - 50.87px);
 }
 
 section{
@@ -87,7 +87,8 @@ a{
 }
 
 .footer{
-	background-color: rgb(243, 237, 235);
+	background-color: white;
+    color: #70757a;
     padding: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

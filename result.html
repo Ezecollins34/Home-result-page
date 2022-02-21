@@ -4,155 +4,177 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<title>Google</title>
-	<link rel="stylesheet" href=".css">
+	<link rel="stylesheet" href="result-style.css">
 	<script src="https://kit.fontawesome.com/9785a352a5.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header>
-        <div>
-            <div class="logo">
+        <div class="header-section">
                 <img class="" src="logo.png">
-            </div>
 
-            <div class="SB">
-                <form>
-                <button type="submit"><i class="fas fa-search"></i></button>
+                <form class="SB">
+                <button type="submit" class="inheader"><i class="fas fa-search"></i></button>
             <input class="search" type="text" name="search" placeholder="search...">
-            <button type="submit"><i class="fas fa-microphone"></i></button>
+            <button type="submit" class="inheader"><i class="fas fa-microphone"></i></button>
             </form>
-            <p>A</p>
-            <p>A</p>
-            <p>A</p>
-            </div>
+            <p class="letter1">A</p>
+            <p class="letter2">A</p>
+            <p class="letter3">A</p>
 
-            <div class="site-links">
-                <ul class="list1">
-                    <p>Top trending search</p>
-                    <a class="active" href="#"> Covid-19</a>
-                    <a class="active" href="#"> CoronaVirus</a>
-                    <a class="active" href="#"> Gerogie CoronaVirus patient</a>
-                    <a class="active" href="#"> Rent will</a>
-                    <a class="active" href="#"> How to handwash</a>
+                <ul class="list">
+                    <a class="activeall" href="#"> All</a>
+                    <a class="active" href="#"> Web</a>
+                    <a class="active" href="#"> Images</a>
+                    <a class="active" href="#"> Social</a>
+                    <a class="active" href="#"> Documents</a>
                 </ul>
                 </div>
     </header>
+<div class="main-content">
     <section class="sidebar">
-        <div>
-            <p>Filters</p>
-            <div>
-                <p>By Date</p>
+            <p class="b">Filters</p>
+            <div class="bydate">
                 <ul>
-                    <li type="checkbox">Any Time</li>
+                    <p><i class="fa-solid fas fa-caret-down"></i>By Date</p>
+                    <input type="radio" id="html" name="choose" value="HTML">
+                    <label for="html">Any Time</label><br>
+                    <input type="radio" id="html" name="choose" value="HTML">
+                    <label for="html">Custom Range</label><br>
+                    <input type="date" class="date">
+                </ul>
+            </div>
+
+            <div class="bydoc">
+                <ul>
+                    <p><i class="fa-solid fas fa-caret-down"></i>By Document Type</p>
+                    <input class="date" type="text" name="search" placeholder=" docx, xls, pdf, etc">
                     <li type="checkbox">Custom Range</li>
-                    <input type="date">
                 </ul>
             </div>
 
-            <div>
-                <p>By Document Type</p>
+            <div class="byloc">
                 <ul>
-                    <input class="search" type="text" name="search" placeholder="(docx, xls, pdf, etc)">
-                    <li type="checkbox">Custom Range</li>
+                    <p><i class="fa-solid fas fa-caret-down"></i>By Location</p>
+                    <input class="date" type="text" name="search" placeholder=" search location"><br>
+                    <input type="checkbox" id="" name="" value="">
+                    <label for="">Los Angeles</label><br>
+                    <input type="checkbox" id="" name="" value="">
+                    <label for="">Lagos</label><br>
+                    <input type="checkbox" id="" name="" value="">
+                    <label for="">London</label><br>
+                    <input type="checkbox" id="" name="" value="">
+                    <label for="">Lakeshore</label><br>
                 </ul>
             </div>
 
-            <div>
-                <p>By Location</p>
+            <div class="bypep">
                 <ul>
-                    <input class="search" type="text" name="search" placeholder="(search location)">
-                    <li type="checkbox">Los Angeles</li>
-                    <li type="checkbox">Lagos</li>
-                    <li type="checkbox">London</li>
-                    <li type="checkbox">Lakeshore</li>
+                    <p><i class="fa-solid fas fa-caret-down"></i>By People</p>
+                    <input class="date" type="text" name="search" placeholder=" search location"><br>
+                    <input type="checkbox" id="" name="" value="">
+                    <label for="">Giannis Antetokounmpo</label><br>
+                    <input type="checkbox" id="" name="" value="">
+                    <label for="">Stephen Curry</label><br>
+                    <input type="checkbox" id="" name="" value="">
+                    <label for="">Trey Young</label><br>
+                    <input type="checkbox" id="" name="" value="">
+                    <label for="">Kelvin Durant</label><br>
                 </ul>
             </div>
-
-            <div>
-                <p>By People</p>
-                <ul>
-                    <input class="search" type="text" name="search" placeholder="(search location)">
-                    <li type="checkbox">Giannis Antetokounmpo</li>
-                    <li type="checkbox">Stephen Curry</li>
-                    <li type="checkbox">Trey Young</li>
-                    <li type="checkbox">Kelvin Durant</li>
-                </ul>
-            </div>
-        </div>
     </section>
 
     <section class="main">
-        <div>
+        <div class="land">
             <p>About 3000 Result Found</p>
-            <p>Recommended For You...</p>
-            <button type="submit"><i>Grant</i></button>   
-            <button type="submit"><i>Health Grant</i></button>  
-            <button type="submit"><i>Affordable Care Act</i></button>  
-            <button type="submit"><i>+5</i></button>       
+            <p><b>Recommended For You...</b></p>
+            <button type="submit" class="submit1"><i>Grant</i></button>   
+            <button type="submit" class="submit1"><i>Health Grant</i></button>  
+            <button type="submit" class="submit1"><i>Affordable Care Act</i></button>  
+            <button type="submit" class="submit15"><i>+5</i></button>       
         </div>
 
-        <div>
-            <a class="active" href="#"> Grants | Official Web Site Of The U.S Health Resources</a>
+        <div class="mainb1">
+            <div class="hblue">
+            <a class="top1" href="#"> Grants | Official Web Site Of The U.S Health Resources</a>
             <button type="submit"><i>Grant</i></button>
-                    <a class="active" href="#"> find a health center;</a>
-                    <a class="active" href="#">  Query data;</a>
-                    <a class="active" href="#"> view fact sheets/a>
-                    <a class="active" href="#"> training and TA hub health</a>
-                    <a class="active" href="#"> care teams</a>
-                    <a class="active" href="#"> child and adolescent health</a>
-                    <a class="active" href="#"> chronic and ...</a>
-                    <a class="active" href="#"> www.hrsa.gov/grants/index.html</a>
+            </div>
+                    <a class="mainb1l" href="#"> find a health center;</a>
+                    <a class="mainb1l" href="#">  Query data;</a>
+                    <a class="mainb1l" href="#"> view fact sheets</a>
+                    <a class="mainb1l" href="#"> training and TA hub health</a>
+                    <a class="mainb1l" href="#"> care teams</a>
+                    <a class="mainb1l" href="#"> child and adolescent health</a>
+                    <a class="mainb1l" href="#"> chronic and ...</a>
+                    <a class="mainb1lw" href="#"> www.hrsa.gov/grants/index.html</a>
         </div>
 
-        <div>
-            <a class="active" href="#"> Grants & Funding | NIH</a>
+        <div class="mainb1">
+            <div class="hblue">
+            <a class="top1" href="#"> Grants & Funding | NIH</a>
             <button type="submit"><i>PDF</i></button>
-                    <a class="active" href="#"> find a health center;</a>
-                    <a class="active" href="#">  Query data;</a>
-                    <a class="active" href="#"> view fact sheets/a>
-                    <a class="active" href="#"> training and TA hub health</a>
-                    <a class="active" href="#"> care teams</a>
-                    <a class="active" href="#"> child and adolescent health</a>
-                    <a class="active" href="#"> chronic and ...</a>
+            </div>
+                    <a class="mainb1l" href="#"> find a health center;</a>
+                    <a class="mainb1l" href="#">  Query data;</a>
+                    <a class="mainb1l" href="#"> view fact sheets/a>
+                    <a class="mainb1l" href="#"> training and TA hub health</a>
+                    <a class="mainb1l" href="#"> care teams</a>
+                    <a class="mainb1l" href="#"> child and adolescent health</a>
+                    <a class="mainb1l" href="#"> chronic and ...</a>
         </div>
 
-        <div>
-            <a class="active" href="#"> Public Health Grants to Local Autorities: 2020 to 2021</a>
+        <div class="mainb1">
+            <div class="hblue">
+            <a class="top1" href="#"> Public Health Grants to Local Autorities: 2020 to 2021</a>
             <button type="submit"><i>Link</i></button>
+            </div>
                 <p>Public health allocations and monetary conditions for local autorities to improve health in local populations</p>
-                <a class="active" href="#"> www.hrsa.gov/grants/index.html</a>
+                <a class="mainb1lw" href="#"> www.hrsa.gov/grants/index.html</a>
         </div>
 
-        <div>
-            <a class="active" href="#"> CDC Community health funding - NCCDPHP: Community ...</a>
+        <div class="mainb1">
+            <div class="hblue">
+            <a class="top1" href="#"> CDC Community health funding - NCCDPHP: Community ...</a>
             <button type="submit"><i>Link</i></button>
-                <a class="active" href="#"> Community health funding.</a>
-                <a class="active" href="#"> Recommended on Facebook, Tweet share compatir...</a>
+            </div>
+                <a class="mainb1l" href="#"> Community health funding.</a>
+                <a class="mainb1l" href="#"> Recommended on Facebook, Tweet share compatir...</a>
                 <p>This website is Archived for historical purposes and its no longer being...</p>
-                <a class="active" href="#"> www.cdc.gov/nccdphp/dch/community-health-funding/index.html</a>
+                <a class="mainb1lw" href="#"> www.cdc.gov/nccdphp/dch/community-health-funding/index.html</a>
         </div>
+        <div class="pagination">
+            <a class="pag1" href="#">1</a>
+            <a class="pag" href="#">2</a>
+            <a class="pag" href="#">3</a>
+            <a class="pag" href="#">4</a>
+            <a class="pag" href="#">5</a>
+            <a class="pag" href="#">6</a>
+          </div>
     </section>
 
-    <section>
-        <div>
+    <section class="end">
+        <div class=" blankb">
             <p>Popular Topics</p>
             <div>
+                <img class="menono" src="Getting started.png"> 
                 <p>How it Works</p>
             </div>
             <div>
+                <img class="menono" src="Getting Started-1.png"> 
                 <p>Trending Searches</p>
             </div>
             <div>
+                <img class="menono" src="Getting Started-2.png"> 
                 <p>Contibute</p>
             </div>
         </div>
 
-        <div>
+        <div class="greenb">
             <p>Are you satisfied with search results?</p>
-            <button type="submit"><i>No</i></button>
-            <button type="submit"><i>Yes</i></button>
+            <button class="but1" type="submit"><i>YES</i></button>
+            <button class="but2" type="submit"><i>NO</i></button>
         </div>
 
-        <div>
+        <div class="blueb">
             <h3>Do you want to search your enterprise data?</h3>
             <p>Contact us today to know about how you can search your enterise data like database, pdf, documents and web links.</p>
             <button type="submit"><i>No</i></button>

@@ -1,9 +1,7 @@
 html,body{
 	background-color: white;
 	height: 100%;
-}
-#main{
-	max-height: calc(100vh - 50.87px);
+    max-height: calc(100% - 60px)
 }
 
 section{
@@ -15,7 +13,7 @@ section{
 }
 .SB{
     justify-content: center;
-    width: 70%;
+    width: 60%;
     background-color: white;
     height: fit-content;
     display: inline-block;
@@ -23,25 +21,21 @@ section{
     border: 1px solid gray;
     opacity: 0.5;
 }
-.SB :hover{
-    border: none;
-    padding: 5px;
-    color: #70757a;
-    box-shadow: 1px 2px 8px ;
-}
 
 button{
     border: none;
     border-radius: 10px;
-    height: 30px;
+    height: 40px;
     background-color: white;
     float: right;
     max-width: max-content;
 }
 .search{
-    border: none;
-    height: 30px;
-    width: 82%;
+    border: 0px;
+    height: 40px;
+    width: 94%;
+    float: left;
+    outline: none;
 }
 
 #place{
